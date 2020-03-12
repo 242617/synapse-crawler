@@ -1,0 +1,7 @@
+logger:
+  level: debug
+core:
+  address: "http://synapse.chill-out.ru:8080"
+services:
+  sentry:
+    dsn: ${SERVICES_SENTRY_DSN}
