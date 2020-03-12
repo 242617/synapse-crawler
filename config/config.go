@@ -10,7 +10,7 @@ var Cfg *Config
 
 type Config struct {
 	Logger   *LoggerConfig `yaml:"logger"`
-	Server   *ServerConfig `yaml:"server"`
+	Core     *ServerConfig `yaml:"core"`
 	Services struct {
 		Sentry *SentryConfig `yaml:"sentry"`
 	} `yaml:"services"`
